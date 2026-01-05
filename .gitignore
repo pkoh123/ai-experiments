@@ -1,3 +1,23 @@
-.ipynb_checkpoints/
+# Python caches
 __pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.conda/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Secrets
 .env
+
+# Large files or temp folders
+*.log
+*.zip
+*.csv
+
+# macOS
+.DS_Store
